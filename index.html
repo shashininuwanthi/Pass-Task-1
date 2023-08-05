@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Responsive Web Apps - Pass Task 1</title>
+
+    <!-- Import css files -->
+    <link rel="stylesheet" href="style.css"/>
+
+    <!-- Internal CSS -->
+
+    <style>
+
+        /* Global Styels */
+
+        body{
+            font-size: 14px;
+            margin: 0;
+            padding: 0;
+            color: #000000;
+            margin-bottom: 50px;
+        }
+
+    </style>
+    
+</head>
+<body>
+    
+    <!-- I used inline css inside some tags to override other css -->
+
+    <h1 style="background-color: #007dfe;" class="main_title">Contact Support Page</h1>
+
+    <!-- Image -->
+
+    <img src="https://img.freepik.com/free-vector/ui-ux-design-concept-illustration_114360-14903.jpg?w=900&t=st=1691223001~exp=1691223601~hmac=5dda727140c745cb187edc70e9645695d1e50b745ba1ebe5aa2bedf837e0f6dc" alt="add user" class="main_img">
+
+    <p style="font-size: 14px;" class="main_txt">Our customer support team is available during
+        regular business hours and will do their best to respond to 
+        your inquiries as soon as possible. Whether you need 
+        assistance with our products or services or just 
+        want to say hello, don't hesitate to reach out.</p>
+
+    <!-- Table -->
+
+    <table class="table">
+        <tr>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Contact Details</th>
+        </tr>
+        <tr>
+            <td>Shashini Nuwanthi</td>
+            <td>CEO</td>
+            <td>+964234452533</td>
+        </tr>
+        
+        <tr>
+            <td>Shashini Nuwanthi</td>
+            <td>Agent 1</td>
+            <td>+964234452533</td>
+        </tr>
+        
+        <tr>
+            <td>Shashini Nuwanthi</td>
+            <td>Agent 2</td>
+            <td>+964234452533</td>
+        </tr>
+    </table>
+
+    <!-- Form -->
+    <div class="div_form">
+        <form action="POST" class="contact_form">
+            <label for="">Name</label><br>
+            <input type="text" name="name"><br>
+            
+            <label for="">Email</label><br>
+            <input type="email" name="email"><br>
+     
+            <label for="">Message</label><br>
+            <textarea name="message" cols="30" rows="10"></textarea><br>
+     
+            <input style="padding: 10px;" type="submit" name="submit" class="submit">
+         </form>
+    </div>
+
+</body>
+</html>
